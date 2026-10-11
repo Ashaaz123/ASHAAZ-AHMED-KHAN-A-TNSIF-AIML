@@ -1,4 +1,4 @@
-# 📊 Supervised Machine Learning — Training & Practice Portfolio
+# 📊 Supervised Machine Learning — Tasks
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10%2B-blue.svg" alt="Python Version">
