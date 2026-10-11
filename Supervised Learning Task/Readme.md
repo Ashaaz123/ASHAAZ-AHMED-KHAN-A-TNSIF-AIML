@@ -1,115 +1,39 @@
-# Customer Purchase Prediction using Machine Learning
+# 📊 Supervised Machine Learning — Training & Practice Portfolio
 
-## 📌 Project Overview
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue.svg" alt="Python Version">
+  <img src="https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange.svg" alt="Scikit-Learn">
+  <img src="https://img.shields.io/badge/Focus-Supervised%20Learning-success.svg" alt="Focus">
+</p>
 
-This project is a **Supervised Machine Learning classification task** that predicts whether a customer will purchase a product based on their **Age** and **Income**.
-
-Two classification algorithms are implemented and compared:
-
-- **Logistic Regression**
-- **Decision Tree Classifier**
-
-The project uses the same dataset and train-test split for both models and compares their prediction accuracy.
+A curated collection of supervised machine learning assignments, mini-projects, and hands-on practice implementations completed during training. This repository demonstrates core concepts in regression, classification, performance evaluation, and ensemble modeling using Python.
 
 ---
 
-## 🎯 Problem Statement
+## 🛠️ Tech Stack
 
-A shopping company wants to predict whether a customer will purchase a product or not based on their **Age** and **Income**.
-
-The model should:
-
-1. Create the customer dataset.
-2. Split the dataset into training and testing sets.
-3. Train a Logistic Regression model.
-4. Train a Decision Tree model.
-5. Predict whether a new customer will purchase the product.
-6. Compare both models using Accuracy.
+* **Language:** Python
+* **Libraries:** 
+  * `pandas` & `numpy` — Data handling and numerical processing
+  * `scikit-learn` — Model training, evaluation metrics, and splitting utilities
 
 ---
 
-## 📊 Dataset
+## 📂 Project Modules & Implementations
 
-The dataset contains three columns:
-
-| Feature | Description |
-|---|---|
-| Age | Age of the customer |
-| Income | Customer's income |
-| Purchased | Purchase decision (0 = No, 1 = Yes) |
-
-### Sample Dataset
-
-| Age | Income | Purchased |
-|---:|---:|---:|
-| 20 | 15000 | 0 |
-| 22 | 18000 | 0 |
-| 25 | 22000 | 0 |
-| 28 | 30000 | 1 |
-| 30 | 35000 | 1 |
-| 32 | 40000 | 1 |
-| 35 | 45000 | 1 |
-| 38 | 50000 | 1 |
-| 40 | 55000 | 1 |
-| 45 | 60000 | 1 |
-
-### Target Values
-
-- `0` → No Purchase
-- `1` → Purchase
+| Script Name | Algorithm / Concept | Key Input Features | Target Output |
+| :--- | :--- | :--- | :--- |
+| **`Linear Regression — Salary Prediction.py`** | Linear Regression | Years of Experience | Predicted Salary |
+| **`Logistic Regression - Product Purchase.py`** | Logistic Regression | Age, Annual Income | Binary Classification ($0/\text{No}, 1/\text{Yes}$) |
+| **`Decision_Tree_Play_Game.py`** | Decision Tree Classifier | Weather, Temperature | Game Play Decision ($0/1$) |
+| **`Random Forest - Customer Churn.py`** | Random Forest Ensemble | Age, Tenure, Monthly Bill | Customer Churn ($0/1$) |
+| **`Evaluation Metrics - Spam Detection.py`** | Classification Metrics | Model Predictions vs. Actuals | Accuracy, Precision, Recall, F1-Score |
+| **`customer_prediction.py`** | Comparative Classification | Age, Income | Multi-model evaluation & inference |
 
 ---
 
-## 🤖 Machine Learning Algorithms
+## 📈 Training Highlights & Core Concepts Covered
 
-### 1. Logistic Regression
-
-Logistic Regression is used as a classification algorithm to predict whether the customer will purchase the product.
-
-**Input Features:**
-- Age
-- Income
-
-**Output:**
-- `0` → No Purchase
-- `1` → Purchase
-
----
-
-### 2. Decision Tree Classifier
-
-The Decision Tree algorithm makes predictions by learning decision rules from the training data.
-
-**Input Features:**
-- Age
-- Income
-
-**Output:**
-- `0` → No Purchase
-- `1` → Purchase
-
----
-
-## 🔄 Machine Learning Workflow
-
-```text
-Dataset Creation
-       ↓
-Data Preparation
-       ↓
-Feature & Target Selection
-       ↓
-Train-Test Split
-       ↓
- ┌───────────────┐
- │               │
- ↓               ↓
-Logistic       Decision
-Regression      Tree
- │               │
- ↓               ↓
-Prediction      Prediction
- │               │
- └───────┬───────┘
-         ↓
-   Accuracy Comparison
+* **Supervised Learning Fundamentals:** Building and fitting both linear and non-linear models on tabular datasets.
+* **Model Evaluation:** Implementing train-test splits and computing essential classification metrics (Accuracy, Precision, Recall, F1-Score).
+* **Comparative Analysis:** Understanding how different algorithms (Logistic Regression vs. Decision Trees vs. Random Forests) approach boundary mapping and classification tasks.
