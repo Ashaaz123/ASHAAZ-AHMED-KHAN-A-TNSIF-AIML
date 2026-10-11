@@ -36,14 +36,17 @@ This repository documents my ongoing learning journey through daily coding probl
 ├── 📁 DSA Workout Problems
 │   └── 💻 Daily coding and problem-solving exercises
 │
-├── 📁 HexaSync_Capstone_Group_Project
-│   └── 👥 Team capstone project
-│
 ├── 📁 NumPy_Pandas_Data_Visualization_Coding_Problems
 │   └── 📊 Data analysis and visualization exercises
 │
 ├── 📁 Supervised Learning Task
 │   └── 🤖 Regression, classification and ML assignments
+|
+├── 📁 DL Gen AI Practice Workout
+|   └── 🧠 CNN, ResNet50 Transfer Learning, and RAG Pipelines
+|
+├── 📁 HexaSync_Capstone_Group_Project
+│   └── 👥 Team capstone project
 │
 └── 📄 README.md
 ```
@@ -382,10 +385,7 @@ This section will document the project problem statement, objectives, technologi
   <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"/>
   <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/>
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="Scikit-learn"/>
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
-  <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white" alt="Keras"/>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/>
-  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
 </p>
@@ -400,7 +400,7 @@ This repository is updated as new training activities and assignments are comple
 |---|---|
 | 🧩 DSA Practice | Learning and practice  |
 | 🤖 Supervised Learning | Completed and worked on a project |
-| 🧠 Neural Networks & Deep Learning | Learning and practice |
+| 🧠 Neural Networks & Deep Learning | Learnt and completed |
 | 🖼️ Computer Vision | Practical implementation |
 | ✨ Generative AI & LLMs | Learning and experimentation |
 | 🔎 RAG & Embeddings | Practical implementation |
